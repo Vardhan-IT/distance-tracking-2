@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Running Distance Tracker</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Running Distance Tracker</h1>
+
+        <p><strong>Latitude:</strong> <span id="latitude">0</span></p>
+
+        <p><strong>Longitude:</strong> <span id="longitude">0</span></p>
+
+        <p><strong>Total Distance:</strong> <span id="distance">0</span> meters</p>
+
+        
+
+        <button onclick="startTracking()">Start Tracking</button>
+
+        <button onclick="togglePauseResume()" id="pauseResumeBtn">Pause</button>
+
+        <button onclick="resetTracking()">Reset</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
